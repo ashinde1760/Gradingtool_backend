@@ -1,0 +1,11 @@
+micronaut:
+  application:
+    name: gradingTool
+
+micronaut:
+    server:
+       max-request-size: '500MB'
+       multipart:
+           max-file-size: '500MB'
+       cors:
+            enabled: true
